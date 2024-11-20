@@ -1,0 +1,208 @@
+body{
+
+
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+background:linear-gradient(to right, black, rgb(19, 17, 17) )
+
+
+}
+
+
+
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+
+.header{
+
+    justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        height: 140px;
+        
+        padding-bottom: 20px;
+        
+    background:linear-gradient(to right, black, rgb(48, 47, 47) )
+    
+
+
+}
+
+
+.boton{
+    margin-left: 0%;
+          width: 140px;
+        height: 140px;
+        text-align: left;
+        
+        opacity: 0;
+    
+        }
+    
+        .boton:hover{
+     transform: scale(1.2); /* Aumenta el tamaño de la imagen al 120% */
+              
+    
+    
+        }
+    
+
+.logo{
+
+    height: 390px;
+    width: 390px;
+    padding-bottom: 20px;
+    padding-top: 25px;
+    text-align: center;
+    
+
+}
+
+
+.descripcion{
+font-weight: bold;
+ font-size: 30px;
+padding-top: 35px;
+color: rgb(255, 255, 255);
+
+text-align: center;
+
+
+}
+
+.descripcion2{
+text-align: center;
+padding-top: 13px;
+font-size: 19px;
+padding-left: 300px;
+padding-right: 300px;
+color: rgb(255, 255, 255);
+
+}
+
+
+.container{
+
+    
+text-align: center;
+
+height: 300px;
+width: 700px;
+padding: 20px;
+border-radius: 20px;
+padding-top: 42px;
+padding-left: 30px;
+display: flex;
+justify-content: space-between;
+padding-left: 30px;
+padding-right: 30px;
+box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.607);
+background:linear-gradient(to bottom, rgb(186, 181, 181), rgb(102, 102, 102) )
+
+
+
+
+
+}
+
+
+
+.ganarpeso{
+
+ 
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    background:linear-gradient(to right, black, rgb(38, 38, 38) )
+    
+    }
+
+
+    .definicion{
+
+       
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+        background:linear-gradient(to right, black, rgb(38, 38, 38) )
+        
+        
+        }
+
+    .mantenimiento{
+
+     
+        
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+        background:linear-gradient(to right, black, rgb(38, 38, 38) )
+
+    }
+
+
+    .uno{
+        text-align: center;
+        height: 200px;
+        width: 200px;
+        transition: transform 0.3s ease;
+        cursor: pointer;
+    }
+
+    .uno:hover {
+        transform: scale(1.2); /* Aumenta el tamaño de la imagen al 120% */
+      }
+
+    .dos{
+        text-align: center;
+        height: 200px;
+        width: 200px;
+        transition: transform 0.3s ease;
+        cursor: pointer;
+
+    }
+
+    .dos:hover{
+        transform: scale(1.2);
+
+
+    }
+
+    .tres{
+
+
+        text-align: center;
+        height: 200px;
+        width: 200px;
+       transition: transform 0.3s ease;
+       cursor: pointer;
+
+    }
+
+
+    .tres:hover{
+        transform: scale(1.2);
+    }
+
+    .text{
+     color: rgb(251, 255, 0);
+  
+    }
+
+
+    .volumentext,.definiciontext,.mantenimientotext{
+
+   padding: 10px;
+  font-weight: bold;
+  font-size: 21px;
+
+
+
+    }

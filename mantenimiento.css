@@ -1,0 +1,240 @@
+body{
+
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
+    background:linear-gradient(to right, black, rgb(19, 17, 17) )
+    
+    
+    }
+    
+    
+    
+    *{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    }
+    
+    .backbutton{
+
+          
+        width: 90px;
+        height: 72px;
+        justify-content: left;
+       
+        transition: transform 0.3s ease;
+        
+        }
+
+
+        .backbutton:hover{
+            transform: scale(1.2);
+        }
+       
+
+
+     
+ 
+.header{
+
+    justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        height: 140px;
+        
+        padding-bottom: 20px;
+        
+    background:linear-gradient(to right, black, rgb(48, 47, 47) )
+    
+
+
+}
+
+    
+    .logo{
+        
+       
+        height: 390px;
+        width: 390px;
+        padding-bottom: 20px;
+        padding-top: 25px;
+        
+        
+    
+    }
+
+  
+    .titulo{
+
+
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+
+
+    }
+
+
+
+
+    .form{
+
+      
+    width: 600px;
+    height: 340px;
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+    background:linear-gradient(to bottom, rgb(210, 203, 203), rgb(56, 56, 56) )
+ 
+    }
+
+
+
+    .label1 {
+
+        font-size: 21px;
+       
+
+    }
+
+
+
+
+    .textoo{
+
+    font-size: 20px;
+
+
+    }
+
+
+    .input_altura{
+
+     height: 45px;
+     width: 260px;
+     border: none;
+     border-radius: 10px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     text-align: center;
+     color: rgb(255, 255, 255);
+     font-size: 18px;
+     background:linear-gradient(to right, black, rgb(38, 38, 38) )
+       
+
+    }
+
+
+    #actividad{
+
+    height: 45px;
+    width: 350px;
+border: none;
+border-radius: 10px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     text-align: center;
+     color: rgb(0, 0, 0);
+     font-size: 17px;
+
+
+    }
+
+
+    ::placeholder{
+
+
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     text-align: center;
+     color: rgb(64, 64, 64);
+     font-size: 18px;
+
+
+    }
+
+
+
+    #calcular{
+
+    border: none;
+    border-radius: 20px;
+   height: 40px;
+   width:140px;
+   font-size: 18px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   cursor: pointer;
+   transition: background-color 0.3 ease;
+   background-color: rgb(225, 255, 0);
+
+    }
+
+    #calcular:hover{
+
+        background-color: rgb(255, 196, 0);
+
+
+
+
+    }
+
+    #actividad{
+
+        color: rgb(64, 64, 64);
+        background:linear-gradient(to right, black, rgb(38, 38, 38) ) 
+        
+
+    }
+
+
+    .parrafo{
+        
+        font-size: 16px;
+      
+       color: rgb(255, 255, 255);
+       
+       text-align: center;
+       
+
+
+    }
+
+
+    .boton{
+margin-left: 0%;
+      width: 140px;
+    height: 140px;
+    text-align: left;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    
+
+    }
+
+    .boton:hover{
+ transform: scale(1.2); /* Aumenta el tamaño de la imagen al 120% */
+          
+
+
+    }
+
+
+    #resultado{
+
+   
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+
+
+
+    }
+
+   
